@@ -1,5 +1,7 @@
 # Lingita
 
+[![Build Status](https://travis-ci.org/nicecab/lingita.svg?branch=master)](https://travis-ci.org/nicecab/lingita)
+
 [![Coverage Status](https://coveralls.io/repos/github/nicecab/lingita/badge.svg?branch=master)](https://coveralls.io/github/nicecab/lingita?branch=master)
 
 ### Dependencies
