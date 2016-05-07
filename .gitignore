@@ -20,16 +20,13 @@ node_modules
 npm-debug.log*
 /coverage
 
+.python-version
+.ruby-version
+
 # Ignore bundle dependencies
 vendor/ruby
 
-# RVM gemset
-.ruby-gemset
-
 # Generated js bundles
 /app/assets/webpack/
-
-# Rubymine/IntelliJ
-.idea
 
 spec/examples.txt
