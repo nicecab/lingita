@@ -3,6 +3,8 @@ language:
 rvm:
   - 2.3.0
 sudo: false
+services:
+  - postgresql
 addons:
   apt:
     sources:
