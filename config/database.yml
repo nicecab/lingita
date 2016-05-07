@@ -19,3 +19,4 @@ development:
 test:
   <<: *default
   database: lingita_test
+  password: ~
