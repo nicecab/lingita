@@ -6,15 +6,27 @@
 
 # Ignore bundler config.
 /.bundle
-/.bundle/*
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
+/log/*.log
+/tmp
+/public/assets
+.env
+node_modules
+npm-debug.log*
+/coverage
 
-# Ignore Byebug command history file.
-.byebug_history
+.python-version
+.ruby-version
+
+# Ignore bundle dependencies
+vendor/ruby
+
+# Generated js bundles
+/app/assets/webpack/
+
+spec/examples.txt

@@ -1,0 +1,14 @@
+.comment {
+
+  .commentAuthor {
+    color: $comment-author-color;   // <--- Loaded via sass-resources-loader
+  }
+
+  p {
+    color: $comment-text-color;     // <-- This one also
+  }
+
+  &__liked {
+    background-color: white;
+  }
+}
