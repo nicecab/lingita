@@ -38,8 +38,6 @@
     "url": "https://github.com/shakacode/react-webpack-rails-tutorial/issues"
   },
   "homepage": "https://github.com/shakacode/react-webpack-rails-tutorial",
-  "dependencies": {
-    "classnames": "^2.2.5"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
