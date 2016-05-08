@@ -5,6 +5,8 @@ gem "rails", "5.0.0.beta4"
 
 gem "autoprefixer-rails"
 gem "bcrypt", "~> 3.1.7"
+gem "haml", ">= 2.3.0"
+gem "hamlit-rails"
 gem "jbuilder"
 gem "listen"
 gem "pg"
@@ -30,6 +32,7 @@ group :development, :test do
   gem "spring-commands-rspec"
   gem "foreman"
   gem "factory_girl_rails"
+  gem "rspec-rails", "3.5.0.beta3"
 
   gem "rubocop", require: false
   gem "ruby-lint", require: false
@@ -58,7 +61,6 @@ group :test  do
   gem "generator_spec"
   gem "launchy"
   gem "poltergeist"
-  gem "rspec-rails", "3.5.0.beta3"
   gem "rspec-retry"
   gem "selenium-webdriver", require: !["poltergeist", "poltergeist_errors_ok", "webkit"].include?(ENV["DRIVER"])
 end
