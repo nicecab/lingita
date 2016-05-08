@@ -1,24 +1,47 @@
-# README
+# Lingita
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Build Status](https://travis-ci.org/nicecab/lingita.svg?branch=master)](https://travis-ci.org/nicecab/lingita)
 
-Things you may want to cover:
+[![Coverage Status](https://coveralls.io/repos/github/nicecab/lingita/badge.svg?branch=master)](https://coveralls.io/github/nicecab/lingita?branch=master)
 
-* Ruby version
+### Dependencies
 
-* System dependencies
+* Ruby (>= 2.3.0)
+* Rails (>= 5.0.0 beta4)
+* Node (>= 5.5.0)
+* Postgres (>= 9.3)
 
-* Configuration
+### Running the app
 
-* Database creation
+The app is developed using mainly Rails, React, and Redux. It requires ruby, rails, nodejs with npm installed.
 
-* Database initialization
+```
+> bundle
+> npm i
+> bin/rake db:setup
+> foreman start -f Procfile.hot
+```
 
-* How to run the test suite
+### Ruby
 
-* Services (job queues, cache servers, search engines, etc.)
+`rbenv` is a fantastic ruby version manager.
 
-* Deployment instructions
+### Nodejs
 
-* ...
+`n` is a fantastic nodejs version manager.
+
+### Python
+
+Python is required to run node-gyp to build native extentions of some nodejs libraries. It requires Python 2.x.
+`pyenv` is a good tool to manage python versions
+
+### Postgres
+
+```
+> brew install postgres
+> initdb /usr/local/var/postgres -E utf8
+> pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+> createuser --interactive -P
+username: postgres
+password: postgres
+```
