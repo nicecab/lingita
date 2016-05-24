@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import RaisedButton from 'material-ui/lib/raised-button';
 
 import CommentForm from './CommentForm/CommentForm';
 import CommentList from './CommentList/CommentList';
@@ -42,7 +41,6 @@ export default class CommentBox extends BaseComponent {
           Comments older than 24 hours are deleted.<br />
           <b>Name</b> is preserved. <b>Text</b> is reset, between submits.
         </p>
-        <RaisedButton label="Default" />
         <CommentForm
           isSaving={data.get('isSaving')}
           error={data.get('submitCommentError')}
