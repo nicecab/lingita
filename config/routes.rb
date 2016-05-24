@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'homes/show'
+
   root "pages#index"
 
   get "simple", to: "pages#simple"
