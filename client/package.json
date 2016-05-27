@@ -1,28 +1,26 @@
 {
-  "name": "react-webpack-rails-tutorial",
-  "version": "1.1.0",
-  "description": "Code from the React Webpack tutorial.",
+  "name": "lingita",
+  "version": "0.0.2",
+  "description": "Notepad for language leaners",
   "main": "server-express.js",
   "engines": {
-    "node": "5.0.0",
-    "npm": "3.5.0"
+    "node": "5.5.0",
+    "npm": "3.9.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakacode/react-webpack-rails-tutorial.git"
+    "url": "https://github.com/nicecab/lingita.git"
   },
   "keywords": [
     "react",
-    "tutorial",
-    "comment",
-    "example"
+    "rails",
+    "language"
   ],
-  "author": "justin808",
-  "license": "MIT",
+  "author": "tomoya55",
   "bugs": {
-    "url": "https://github.com/shakacode/react-webpack-rails-tutorial/issues"
+    "url": "https://github.com/nicecab/lingita/issues"
   },
-  "homepage": "https://github.com/shakacode/react-webpack-rails-tutorial",
+  "homepage": "https://github.com/nicecab/lingita",
   "scripts": {
     "test": "NODE_PATH=./app mocha --compilers js:babel-core/register --require ./app/libs/testHelper.js --require ./app/libs/testNullCompiler.js 'app/**/*.spec.@(js|jsx)'",
     "test:debug": "npm run test -- --debug-brk",
