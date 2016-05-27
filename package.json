@@ -41,5 +41,10 @@
   "dependencies": {
     "classnames": "^2.2.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ]
 }
