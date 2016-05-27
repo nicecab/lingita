@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'homes/show'
-
   root "pages#index"
+
+  resource "home", only: "show"
 
   get "simple", to: "pages#simple"
   get "no-router", to: "pages#no_router"
