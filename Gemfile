@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
-gem "rails", "5.0.0.beta4"
+gem "rails", "5.0.0.rc1"
 
 gem "autoprefixer-rails"
 gem "bcrypt", "~> 3.1.7"
@@ -10,7 +10,7 @@ gem "listen"
 gem "pg"
 gem "puma"
 gem "rails-html-sanitizer"
-gem "react_on_rails", "~> 5.1.1"
+gem "react_on_rails", "~> 6.0.0.rc5"
 gem "sass-rails"
 gem "therubyracer"
 gem "uglifier"
