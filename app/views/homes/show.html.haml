@@ -1,2 +1,4 @@
 %h1 Homes#show
 %p Find me in app/views/homes/show.html.haml
+
+= react_component('HomeApp', props: render(template: "/comments/index.json.jbuilder"), prerender: false)
