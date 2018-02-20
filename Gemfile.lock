@@ -332,7 +332,7 @@ DEPENDENCIES
   rails-html-sanitizer
   rails_12factor
   rainbow
-  react_on_rails (~> 6.0.0.rc5)
+  react_on_rails (~> 6.0.0.rc6)
   rspec-rails (= 3.5.0.beta3)
   rspec-retry
   rubocop
